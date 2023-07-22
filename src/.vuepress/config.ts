@@ -5,7 +5,7 @@ export default defineUserConfig({
   base: "/",
   dest:"dist",
   lang: "zh-CN",
-  title: "文档演示",
+  title: "心理疾病科普",
   description: "vuepress-theme-hope 的文档演示",
 
   theme,

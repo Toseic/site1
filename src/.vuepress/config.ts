@@ -3,18 +3,12 @@ import theme from "./theme.js";
 
 export default defineUserConfig({
   base: "/",
-  dest: "./dist",
-  locales: {
-    "/": {
-      lang: "zh-CN",
-      title: "文档演示",
-      description: "vuepress-theme-hope 的文档演示",
-    },
-  },
+  dest:"dist",
+  lang: "zh-CN",
+  title: "文档演示",
+  description: "vuepress-theme-hope 的文档演示",
 
   theme,
-
-
 
   // Enable it with pwa
   // shouldPrefetch: false,

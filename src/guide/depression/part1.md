@@ -1,6 +1,11 @@
 ---
 title: p1
 icon: lightbulb
+author: 清清❤️
+category:
+  - 抑郁症
+tag:
+  - 抑郁症
 ---
 
 ## 第一部分

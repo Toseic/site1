@@ -1,5 +1,5 @@
 ---
-title: 病理学解释
+title: 专业治疗
 index: false
 
 ---

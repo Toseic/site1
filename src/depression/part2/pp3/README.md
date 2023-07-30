@@ -1,5 +1,5 @@
 ---
-title: 病理学解释
+title: 物理治疗
 index: false
 
 ---

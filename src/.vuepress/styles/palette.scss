@@ -1,2 +1,22 @@
 // you can change colors here
 $theme-color: #096dd9;
+h1, h2, h3, h4, h5, h6  {
+    font-weight:bold;
+}
+body {
+    --font-family:source-han-sans-simplified-c, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif
+}
+
+// .sidebar-item:not(.sidebar-heading) {
+
+// }
+
+.vp-sidebar-links, .vp-sidebar-page,.vp-sidebar-title {
+// .vp-sidebar-heading.vp-sidebar-title {
+    font-weight: inherit;
+
+}
+// .vp-link .nav-link .vp-sidebar-link .vp-sidebar-page {
+//     --font-weight: bold;
+
+// }

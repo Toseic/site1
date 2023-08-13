@@ -1,6 +1,6 @@
 import { defineUserConfig } from "vuepress";
 import { searchProPlugin } from "vuepress-plugin-search-pro";
-import { cut } from "nodejs-jieba";
+// import { cut } from "nodejs-jieba";
 import theme from "./theme.js";
 
 
@@ -18,11 +18,11 @@ export default defineUserConfig({
             queryHistoryCount: 0,
             resultHistoryCount: 0,
             // sortStrategy: "max | total",
-            indexOptions: {
-                // 使用 nodejs-jieba 进行分词
-                tokenize: (text, fieldName) =>
-                    fieldName === "id" ? [text] : cut(text, true),
-            },
+            // indexOptions: {
+            //     // 使用 nodejs-jieba 进行分词
+            //     tokenize: (text, fieldName) =>
+            //         fieldName === "id" ? [text] : cut(text, true),
+            // },
             
         }),
     ],
